@@ -15,7 +15,7 @@
 */
 
 html {
-    background-color: rgb(66, 11, 92);
+    background-color: rgb(23, 189, 189);
 }
 
 body {
@@ -26,14 +26,28 @@ body {
 }
 
 nav {
-    background-color: rgb(85, 8, 8);
+    background-color: tan;
+}
+
+nav ul li a {
+    color: rgb(77, 77, 77);
+}
+
+nav ul li a:active, nav ul li a:hover {
+    color: rgb(211, 31, 31);
 }
 
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: tan;
 }
 
 address {
-    background-color: rgb(49, 49, 49);
-    color: rgb(211, 185, 41);
+    background-color: tan;
+    color: rgb(211, 31, 31);
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
